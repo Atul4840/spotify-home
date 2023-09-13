@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Spotify</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="left-nav">
+        <img src="https://logos-world.net/wp-content/uploads/2020/09/Spotify-Logo.png" alt=" logo" />
+        <h3>Favorites</h3>
+      </div>
+
+      <div class="right-nav">
+        <div class="input-search">
+          <i class="fa-solid fa-magnifying-glass s-icon"></i>
+          <input type="text" class="search" name="search" id="search" placeholder="" />
+          <i class="fa fa-microphone s-microfone"></i>
+        </div>
+        <div><i class="fa fa-bell"></i></div>
+        <div class="profile-img">
+          <img src="https://s.ndtvimg.com/images/entities/300/virat-kohli-967.png" alt="profile" />
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="queue-top">
+        <h2>Queue</h2>
+        <div class="drop-down">
+          <strong>Queue</strong>
+          <i class="fa-solid fa-caret-down down"></i>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="song">
+          <p>01</p>
+          <img src="https://c.saavncdn.com/247/Gadar-2-Hindi-2023-20230821100547-500x500.jpg" alt="" height="80px"
+            width="80px" />
+          <div class="song-info">
+            <h3 class="song-name">Dil Jhoom</h3>
+            <p>Arijit Singh</p>
+          </div>
+          <div class="icon">
+            <i class="fa fa-heart heart"></i>
+          </div>
+        </div>
+
+        <div class="song">
+          <p>02</p>
+          <img src="https://c.saavncdn.com/026/Chaleya-From-Jawan-Hindi-2023-20230814014337-500x500.jpg" alt=""
+            height="80px" width="80px" />
+          <div class="song-info">
+            <h3 class="song-name">Chaleya</h3>
+            <p>Anirudh Ravichander, Arijit Singh,</p>
+          </div>
+          <div class="icon">
+            <i class="fa fa-heart heart"></i>
+          </div>
+        </div>
+
+        <div class="song">
+          <p>03</p>
+          <img src="https://c.saavncdn.com/099/Gone-Girl-Hindi-2023-20230806053115-500x500.jpg" alt="" height="80px"
+            width="80px" />
+          <div class="song-info">
+            <h3 class="song-name">Gone Girl</h3>
+            <p>Badshah, Payal Dev</p>
+          </div>
+          <div class="icon">
+            <i class="fa fa-heart heart"></i>
+          </div>
+        </div>
+
+        <div class="song">
+          <p>04</p>
+          <img src="https://c.saavncdn.com/596/Chandni-Hindi-2023-20230729195544-500x500.jpg" alt="" height="80px"
+            width="80px" />
+          <div class="song-info">
+            <h3 class="song-name">Chandni</h3>
+            <p>Sachet Tandon, Parampara Tandon, B Praak</p>
+          </div>
+          <div class="icon">
+            <i class="fa fa-heart heart"></i>
+          </div>
+        </div>
+
+        <div class="song">
+          <p>04</p>
+          <img src="https://c.saavncdn.com/696/Guli-Mata-Hindi-2023-20230714050721-500x500.jpg" alt="" height="80px"
+            width="80px" />
+          <div class="song-info">
+            <h3 class="song-name">Guli Mata</h3>
+            <p>Shreya Ghoshal, Rajat Nagpal</p>
+          </div>
+          <div class="icon">
+            <i class="fa fa-heart heart"></i>
+          </div>
+        </div>
+
+        <div class="song">
+          <p>05</p>
+          <img src="https://c.saavncdn.com/397/Har-Har-Mahadev-From-OMG-2-Hindi-2023-20230728145121-500x500.jpg" alt=""
+            height="80px" width="80px" />
+          <div class="song-info">
+            <h3 class="song-name">Har Har Mahadev</h3>
+            <p>Vikram Montrose</p>
+          </div>
+          <div class="icon">
+            <i class="fa fa-heart heart"></i>
+          </div>
+        </div>
+
+        <div class="song">
+          <p>05</p>
+          <img src="https://c.saavncdn.com/470/Arijit-Singh-All-Time-Hits-Hindi-2023-20230515203522-500x500.jpg" alt=""
+            height="80px" width="80px" />
+          <div class="song-info">
+            <h3 class="song-name">Kesariya</h3>
+            <p>Arijit</p>
+          </div>
+          <div class="icon">
+            <i class="fa fa-heart heart"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="banner-list">
+        <div class="banner">
+          <img src="http://c.saavncdn.com/editorial/charts_TrendingToday_134351_20230826113717.jpg" alt="" />
+        </div>
+        <div class="banner">
+          <img src="http://c.saavncdn.com/editorial/charts_HindiChartbusters_158236_20220311194231.jpg" alt="" />
+        </div>
+        <div class="banner">
+          <img src="http://c.saavncdn.com/editorial/logo/charts_Hindi90s_142072_20190906160631.jpg" alt="" />
+        </div>
+      </div>
+
+      <h1>Latest Release</h1>
+
+      <div class="latest-rel-list">
+        <div class="latest-release">
+          <div class="song-one">
+            <div class="song-img">
+              <img class="latest-image" src="https://c.saavncdn.com/972/Adipurush-Hindi-2023-20230607184755-500x500.jpg"
+                alt="" />
+              <i class="fa-solid fa-play"></i>
+              <div class="song-info">
+                <h2>Jai Shri Ram</h2>
+                <p>07 August 2023</p>
+              </div>
+            </div>
+            <div class="song-duration">02:20</div>
+          </div>
+
+          <div class="song-two">
+            <div class="song-img">
+              <img class="latest-image" src="https://c.saavncdn.com/139/Raabta-Hindi-2023-20230830134708-500x500.jpg"
+                alt="" />
+              <i class="fa-solid fa-play"></i>
+              <div class="song-info">
+                <h2>Raabta</h2>
+                <p>07 August 2023</p>
+              </div>
+            </div>
+
+            <div class="song-duration">3:35</div>
+          </div>
+        </div>
+
+        <div class="latest-release">
+          <div class="song-one">
+            <div class="song-img">
+              <img class="latest-image" src="https://c.saavncdn.com/385/Race-Hindi-2008-20230804165929-500x500.jpg"
+                alt="" />
+              <i class="fa-solid fa-play"></i>
+              <div class="song-info">
+                <h2>Race</h2>
+                <p>07 August 2023</p>
+              </div>
+            </div>
+            <div class="song-duration">02:29</div>
+          </div>
+
+          <div class="song-two">
+            <div class="song-img">
+              <img class="latest-image" src="https://c.saavncdn.com/247/Gadar-2-Hindi-2023-20230821100547-500x500.jpg"
+                alt="" />
+              <i class="fa-solid fa-play"></i>
+              <div class="song-info">
+                <h2>Gadar 2</h2>
+                <p>07 August 2023</p>
+              </div>
+            </div>
+
+            <div class="song-duration">02:27</div>
+          </div>
+        </div>
+      </div>
+
+      <h1>Popular Artist</h1>
+
+      <div class="popular-art-list">
+        <img src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg" alt="" />
+        <img src="https://c.saavncdn.com/338/Tiger-Transformation-From-Jailer-Unknown-2023-20230906222304-500x500.jpg"
+          alt="" />
+        <img src="https://c.saavncdn.com/556/Glimpse-of-Antony-Das-From-Leo-Tamil-2023-20230804120253-500x500.jpg"
+          alt="" />
+        <img src="https://c.saavncdn.com/artists/Nucleya_500x500.jpg" alt="" />
+        <img src="https://c.saavncdn.com/342/Gandarabai-From-Skanda-Tamil-Tamil-2023-20230818180058-500x500.jpg"
+          alt="" />
+        <img
+          src="https://c.saavncdn.com/009/Hungry-Cheetah-From-They-Call-Him-OG-Tamil-Tamil-2023-20230903132758-500x500.jpg"
+          alt="" />
+        <img src="https://c.saavncdn.com/731/Dummare-Dumma-From-Skanda-Tamil-Tamil-2023-20230830152230-500x500.jpg"
+          alt="" />
+        <img src="https://c.saavncdn.com/artists/Neha_Kakkar_006_20200822042626_500x500.jpg" alt="" />
+        <img src="https://c.saavncdn.com/artists/Diljit_Dosanjh_004_20221006184535_500x500.jpg" alt="" />
+      </div>
+
+      <div class="popular-music-gen">
+        <div class="music-gen-logo">
+          <img src="https://c.saavncdn.com/editorial/BollywoodY2K_saavn_radio_20210331123208_500x500.jpg" alt="" />
+        </div>
+        <div class="songs-genere">
+          <img
+            src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64b3fe1e23a1c75be3b5f164/COLLECTION_3188341437211.png"
+            alt="" />
+          <img
+            src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/63e0af595eb058293f5e8e9b/COLLECTION_188225557911914.png"
+            alt="" />
+          <img
+            src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ede3dbe71d6955350d4b05/COLLECTION_280224080815698.png"
+            alt="" />
+          <img
+            src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/63455f957ab65d7135e1e61a/COLLECTION_31565149152769.png"
+            alt="" />
+          <img
+            src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/644fde79a0935f7db08fa6c8/COLLECTION_23586739794765.png"
+            alt="" />
+          <img
+            src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/5f71d3ed2841b8530176454a/COLLECTION_456299868870987.png"
+            alt="" />
+          <img
+            src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64ede6c2f295161b8ee16886/COLLECTION_539638866660798.jpeg"
+            alt="" />
+          <img
+            src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64e86cc080422f4d52fb31ac/COLLECTION_451905380146906.jpg"
+            alt="" />
+        </div>
+      </div>
+
+
+      <h1>Latest English</h1>
+      <div class="popular-music-eng">
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/866/On-My-Way-English-2019-20190308195918-500x500.jpg" alt="english-song">
+          </div>
+          <span>Peaches</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/artists/Justin_Bieber_005_20201127112218_500x500.jpg" alt="english-song">
+          </div>
+          <span>FRIENDS</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img
+              src="https://c.saavncdn.com/087/MIDDLE-OF-THE-NIGHT-English-2020-20200210192336-500x500.jpg"
+              alt="english-song">
+          </div>
+          <span>MIDDLE</span>
+          <span>Aug 11 2023</span>
+
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/658/Tara-Rita-Solven-Remix--English-2021-20211115153516-500x500.jpg" alt="english-song">
+          </div>
+          <span>lovely</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/552/Unstoppable-English-2016-500x500.jpg" alt="english-song">
+          </div>
+          <span>Unstoppable</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/430/30-English-2021-20211118004711-500x500.jpg" alt="english-song">
+          </div>
+          <span>Waka Waka</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/725/Unholy-English-2022-20220922233621-500x500.jpg" alt="english-song">
+          </div>
+          <span>Unholy</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/292/Safari-English-2018-20181019011931-500x500.jpg" alt="english-song">
+          </div>
+          <span>Safari</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/197/FRIENDS-English-2018-20190607042605-500x500.jpg" alt="english-song">
+          </div>
+          <span>Let Me Lo</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/artists/Justin_Bieber_005_20201127112218_500x500.jpg" alt="english-song">
+          </div>
+          <span>Don't Let </span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/943/Enemy-from-the-series-Arcane-League-of-Legends--English-2021-20211028173417-500x500.jpg" alt="english-song">
+          </div>
+          <span>Harleys In </span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg" alt="english-song">
+          </div>
+          <span>At My Worst</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+      </div>
+      <h1>Latest Hindi</h1>
+      <div class="popular-music-eng">
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/393/Jai-Shri-Ram-Hindi-Hindi-2023-20230511171009-500x500.jpg" alt="english-song">
+          </div>
+          <span>Jai Shree...</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/854/Main-Nikla-Gaddi-Leke-From-Gadar-2-Hindi-2023-20230803123141-500x500.jpg" alt="english-song">
+          </div>
+          <span>Gaddi Leke</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img
+              src="https://c.saavncdn.com/139/Raabta-Hindi-2023-20230830134708-500x500.jpg"
+              alt="english-song">
+          </div>
+          <span>Raabta</span>
+          <span>Aug 11 2023</span>
+
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/622/Sahibaa-From-The-Great-Indian-Family-Hindi-2023-20230907105124-500x500.jpg" alt="english-song">
+          </div>
+          <span>Sahibaa </span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/000/DJ-Tillu-Hindi-2023-20230824112703-500x500.jpg" alt="english-song">
+          </div>
+          <span>DJ Tillu
+          </span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/430/30-English-2021-20211118004711-500x500.jpg" alt="english-song">
+          </div>
+          <span>Waka Waka</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/799/Sanu-Ek-Pal-Hindi-2023-20230906194138-500x500.jpg" alt="english-song">
+          </div>
+          <span>Sanu Ek</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/055/Kasam-Se-Hindi-2023-20230825134840-500x500.jpg" alt="english-song">
+          </div>
+          <span>Kasam Se</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/180/Tu-Hi-Re-Hindi-2023-20230901175724-500x500.jpg" alt="english-song">
+          </div>
+          <span>Tu Hi Re</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/733/System-Hilare-Se-Rao-Sahab-Haryanvi-2023-20230801002839-500x500.jpg" alt="english-song">
+          </div>
+          <span>System Hilare  </span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/283/Lala-Lori-Hindi-2020-20201125120917-500x500.jpg" alt="english-song">
+          </div>
+          <span>Lala Lori</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+        <div class="eng-song">
+          <div class="img-div">
+            <img src="https://c.saavncdn.com/268/Gypsy-Haryanvi-2022-20220428195345-500x500.jpg" alt="english-song">
+          </div>
+          <span>Gypsy</span>
+          <span>Aug 11 2023</span>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
